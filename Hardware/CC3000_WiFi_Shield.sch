@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -9755,7 +9755,7 @@ LILYPAD- DIO-09910&lt;br&gt;</description>
 <part name="SUPPLY4" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="SJ1" library="SparkFun-Passives" deviceset="SOLDERJUMPER_2WAY" device="PASTE1&amp;2"/>
+<part name="SJ1" library="SparkFun-Passives" deviceset="SOLDERJUMPER_2WAY" device="PASTE1&amp;2" value="Mode"/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
@@ -9775,22 +9775,16 @@ LILYPAD- DIO-09910&lt;br&gt;</description>
 <part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND16" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="JP1" library="SparkFun-Connectors" deviceset="M03" device="PTH"/>
+<part name="JP1" library="SparkFun-Connectors" deviceset="M03" device="PTH" value="Debug"/>
 <part name="GND18" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C8" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="10pF">
-<attribute name="COEFF" value="C0G"/>
-<attribute name="PLACE" value="DNP"/>
-<attribute name="TOL" value="5%"/>
-</part>
+<part name="C8" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="DNP"/>
 <part name="C7" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="2.2pF">
 <attribute name="COEFF" value="C0G"/>
 <attribute name="TOL" value="10%"/>
 </part>
 <part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="390"/>
 <part name="GND19" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="D1" library="SparkFun-LED" deviceset="LED-GREEN" device="0603">
-<attribute name="COLOR" value="GREEN"/>
-</part>
+<part name="D1" library="SparkFun-LED" deviceset="LED-GREEN" device="0603" value="GREEN"/>
 <part name="R4" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 <part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 <part name="SUPPLY8" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
@@ -9894,14 +9888,14 @@ LILYPAD- DIO-09910&lt;br&gt;</description>
 <instance part="GND15" gate="1" x="208.28" y="154.94"/>
 <instance part="GND16" gate="1" x="127" y="144.78"/>
 <instance part="GND17" gate="1" x="149.86" y="144.78"/>
-<instance part="JP1" gate="G$1" x="38.1" y="121.92" rot="MR180"/>
+<instance part="JP1" gate="G$1" x="38.1" y="121.92" smashed="yes" rot="MR180">
+<attribute name="VALUE" x="25.4" y="127" size="1.778" layer="96" rot="MR180"/>
+<attribute name="NAME" x="35.56" y="116.078" size="1.778" layer="95" rot="MR180"/>
+</instance>
 <instance part="GND18" gate="1" x="50.8" y="114.3"/>
 <instance part="C8" gate="G$1" x="182.88" y="167.64" smashed="yes" rot="R90">
-<attribute name="COEFF" x="182.88" y="160.02" size="1.778" layer="96"/>
-<attribute name="TOL" x="182.88" y="162.56" size="1.778" layer="96"/>
 <attribute name="NAME" x="177.8" y="170.307" size="1.778" layer="95"/>
 <attribute name="VALUE" x="182.88" y="165.227" size="1.778" layer="96"/>
-<attribute name="PLACE" x="182.88" y="170.18" size="1.778" layer="96"/>
 </instance>
 <instance part="C7" gate="G$1" x="139.7" y="167.64" smashed="yes" rot="R90">
 <attribute name="COEFF" x="139.7" y="157.48" size="1.778" layer="96"/>
@@ -9915,9 +9909,8 @@ LILYPAD- DIO-09910&lt;br&gt;</description>
 </instance>
 <instance part="GND19" gate="1" x="83.82" y="142.24"/>
 <instance part="D1" gate="G$1" x="83.82" y="157.48" smashed="yes">
-<attribute name="COLOR" x="86.36" y="154.94" size="1.778" layer="96"/>
 <attribute name="NAME" x="86.36" y="157.48" size="1.778" layer="95"/>
-<attribute name="VALUE" x="89.535" y="152.908" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="86.106" y="154.305" size="1.778" layer="96"/>
 </instance>
 <instance part="R4" gate="G$1" x="53.34" y="33.02" smashed="yes" rot="R90">
 <attribute name="NAME" x="55.88" y="35.5346" size="1.778" layer="95"/>
@@ -10008,18 +10001,17 @@ LILYPAD- DIO-09910&lt;br&gt;</description>
 <wire x1="50.8" y1="175.26" x2="60.96" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="175.26" x2="60.96" y2="172.72" width="0.1524" layer="91"/>
 <junction x="50.8" y="175.26"/>
-<pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="60.96" y1="175.26" x2="71.12" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="175.26" x2="71.12" y2="172.72" width="0.1524" layer="91"/>
 <junction x="60.96" y="175.26"/>
-<junction x="71.12" y="175.26"/>
-<wire x1="71.12" y1="172.72" x2="71.12" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="60.96" y1="175.26" x2="71.12" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="175.26" x2="83.82" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="175.26" x2="83.82" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="SUPPLY5" gate="G$1" pin="3.3V"/>
 <wire x1="83.82" y1="177.8" x2="83.82" y2="175.26" width="0.1524" layer="91"/>
 <junction x="83.82" y="175.26"/>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="71.12" y1="172.72" x2="71.12" y2="175.26" width="0.1524" layer="91"/>
+<junction x="71.12" y="175.26"/>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
@@ -10567,6 +10559,9 @@ LILYPAD- DIO-09910&lt;br&gt;</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="115,1,130.082,157.48,L1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
