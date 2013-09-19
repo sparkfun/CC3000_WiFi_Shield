@@ -8396,27 +8396,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;&lt;br&gt;
 &lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="TO220-ADJ">
-<wire x1="5.08" y1="-1.905" x2="-5.08" y2="-1.905" width="0.2032" layer="21"/>
-<wire x1="-5.08" y1="-1.905" x2="-5.08" y2="1.905" width="0.2032" layer="21"/>
-<wire x1="-5.08" y1="1.905" x2="-5.08" y2="2.54" width="0.2032" layer="21"/>
-<wire x1="-5.08" y1="2.54" x2="5.08" y2="2.54" width="0.2032" layer="21"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="1.905" width="0.2032" layer="21"/>
-<wire x1="5.08" y1="1.905" x2="5.08" y2="-1.905" width="0.2032" layer="21"/>
-<wire x1="5.08" y1="1.905" x2="-5.08" y2="1.905" width="0.2032" layer="21"/>
-<wire x1="5.08" y1="2.54" x2="8.255" y2="2.54" width="0.2032" layer="51"/>
-<wire x1="8.255" y1="2.54" x2="8.255" y2="-5.715" width="0.2032" layer="51"/>
-<wire x1="8.255" y1="-5.715" x2="9.525" y2="-5.715" width="0.2032" layer="51"/>
-<wire x1="9.525" y1="-5.715" x2="9.525" y2="3.81" width="0.2032" layer="51"/>
-<wire x1="9.525" y1="3.81" x2="-9.525" y2="3.81" width="0.2032" layer="51"/>
-<wire x1="-9.525" y1="3.81" x2="-9.525" y2="-5.715" width="0.2032" layer="51"/>
-<wire x1="-9.525" y1="-5.715" x2="-8.255" y2="-5.715" width="0.2032" layer="51"/>
-<wire x1="-8.255" y1="-5.715" x2="-8.255" y2="2.54" width="0.2032" layer="51"/>
-<wire x1="-8.255" y1="2.54" x2="-5.08" y2="2.54" width="0.2032" layer="51"/>
-<pad name="ADJ" x="-2.54" y="0" drill="1" diameter="1.8796" shape="square"/>
-<pad name="OUT" x="0" y="0" drill="1" diameter="1.8796"/>
-<pad name="IN" x="2.54" y="0" drill="1" diameter="1.8796"/>
-</package>
 <package name="SOT223">
 <description>&lt;b&gt;SOT-223&lt;/b&gt;</description>
 <wire x1="3.2766" y1="1.651" x2="3.2766" y2="-1.651" width="0.2032" layer="21"/>
@@ -8438,40 +8417,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
 <rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
 </package>
-<package name="V-REG_DPACK">
-<description>&lt;b&gt;DPAK&lt;/b&gt;&lt;p&gt;
-PLASTIC PACKAGE CASE 369C-01&lt;br&gt;
-Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
-<wire x1="3.2766" y1="3.8354" x2="3.277" y2="-2.159" width="0.2032" layer="21"/>
-<wire x1="3.277" y1="-2.159" x2="-3.277" y2="-2.159" width="0.2032" layer="21"/>
-<wire x1="-3.277" y1="-2.159" x2="-3.2766" y2="3.8354" width="0.2032" layer="21"/>
-<wire x1="-3.277" y1="3.835" x2="3.2774" y2="3.8346" width="0.2032" layer="51"/>
-<wire x1="-2.5654" y1="3.937" x2="-2.5654" y2="4.6482" width="0.2032" layer="51"/>
-<wire x1="-2.5654" y1="4.6482" x2="-2.1082" y2="5.1054" width="0.2032" layer="51"/>
-<wire x1="-2.1082" y1="5.1054" x2="2.1082" y2="5.1054" width="0.2032" layer="51"/>
-<wire x1="2.1082" y1="5.1054" x2="2.5654" y2="4.6482" width="0.2032" layer="51"/>
-<wire x1="2.5654" y1="4.6482" x2="2.5654" y2="3.937" width="0.2032" layer="51"/>
-<wire x1="2.5654" y1="3.937" x2="-2.5654" y2="3.937" width="0.2032" layer="51"/>
-<smd name="1" x="-2.28" y="-4.8" dx="1.6" dy="3" layer="1"/>
-<smd name="3" x="2.28" y="-4.8" dx="1.6" dy="3" layer="1"/>
-<smd name="4" x="0" y="2.38" dx="5.8" dy="6.2" layer="1"/>
-<text x="-3.81" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="5.08" y="-2.54" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-2.7178" y1="-5.1562" x2="-1.8542" y2="-2.2606" layer="51"/>
-<rectangle x1="1.8542" y1="-5.1562" x2="2.7178" y2="-2.2606" layer="51"/>
-<rectangle x1="-0.4318" y1="-3.0226" x2="0.4318" y2="-2.2606" layer="21"/>
-<polygon width="0.1998" layer="51">
-<vertex x="-2.5654" y="3.937"/>
-<vertex x="-2.5654" y="4.6482"/>
-<vertex x="-2.1082" y="5.1054"/>
-<vertex x="2.1082" y="5.1054"/>
-<vertex x="2.5654" y="4.6482"/>
-<vertex x="2.5654" y="3.937"/>
-</polygon>
-</package>
 </packages>
 <symbols>
-<symbol name="78ADJ-2">
+<symbol name="78ADJ">
 <wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.4064" layer="94"/>
 <wire x1="5.08" y1="-5.08" x2="5.08" y2="2.54" width="0.4064" layer="94"/>
 <wire x1="5.08" y1="2.54" x2="-5.08" y2="2.54" width="0.4064" layer="94"/>
@@ -8484,41 +8432,23 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <pin name="IN" x="-7.62" y="0" visible="off" length="short" direction="in"/>
 <pin name="ADJ" x="0" y="-7.62" visible="off" length="short" direction="in" rot="R90"/>
 <pin name="OUT" x="7.62" y="0" visible="off" length="short" direction="out" rot="R180"/>
+<pin name="OUT@1" x="7.62" y="-2.54" visible="off" length="short" direction="out" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="V_REG_317" prefix="U">
-<description>&lt;b&gt;Voltage Regulator&lt;/b&gt;
-Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google 'LM317 Calculator' for easy to use app to get the two resistor values needed. 240/720 for 5V output. 240/390 for 3.3V output. Spark Fun Electronics SKU : COM-00527</description>
+<deviceset name="V_REG_LM1117" prefix="IC" uservalue="yes">
+<description>&lt;b&gt;Voltage Regulator LM1117&lt;/b&gt;
+Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU : COM-00595</description>
 <gates>
-<gate name="G$1" symbol="78ADJ-2" x="0" y="0"/>
+<gate name="G$1" symbol="78ADJ" x="0" y="0"/>
 </gates>
 <devices>
-<device name="SINK" package="TO220-ADJ">
-<connects>
-<connect gate="G$1" pin="ADJ" pad="ADJ"/>
-<connect gate="G$1" pin="IN" pad="IN"/>
-<connect gate="G$1" pin="OUT" pad="OUT"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMD" package="SOT223">
+<device name="SOT223" package="SOT223">
 <connects>
 <connect gate="G$1" pin="ADJ" pad="1"/>
 <connect gate="G$1" pin="IN" pad="3"/>
 <connect gate="G$1" pin="OUT" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="DPACK" package="V-REG_DPACK">
-<connects>
-<connect gate="G$1" pin="ADJ" pad="1"/>
-<connect gate="G$1" pin="IN" pad="3"/>
-<connect gate="G$1" pin="OUT" pad="4"/>
+<connect gate="G$1" pin="OUT@1" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9737,7 +9667,7 @@ LILYPAD- DIO-09910&lt;br&gt;</description>
 <part name="C4" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="1uF"/>
 <part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="240"/>
 <part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="390"/>
-<part name="U1" library="SparkFun-PowerIC" deviceset="V_REG_317" device="SMD"/>
+<part name="U1" library="SparkFun-PowerIC" deviceset="V_REG_LM1117" device="SOT223"/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -9831,23 +9761,23 @@ LILYPAD- DIO-09910&lt;br&gt;</description>
 <instance part="J1" gate="G$1" x="200.66" y="167.64" rot="MR0"/>
 <instance part="C3" gate="G$1" x="25.4" y="167.64"/>
 <instance part="C4" gate="G$1" x="71.12" y="167.64"/>
-<instance part="R1" gate="G$1" x="50.8" y="167.64" smashed="yes" rot="R90">
-<attribute name="NAME" x="53.34" y="170.1546" size="1.778" layer="95"/>
-<attribute name="VALUE" x="53.34" y="165.1" size="1.778" layer="96"/>
+<instance part="R1" gate="G$1" x="50.8" y="165.1" smashed="yes" rot="R90">
+<attribute name="NAME" x="53.34" y="167.6146" size="1.778" layer="95"/>
+<attribute name="VALUE" x="53.34" y="162.56" size="1.778" layer="96"/>
 </instance>
-<instance part="R2" gate="G$1" x="40.64" y="152.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="43.18" y="154.9146" size="1.778" layer="95"/>
-<attribute name="VALUE" x="43.18" y="152.4" size="1.778" layer="96"/>
+<instance part="R2" gate="G$1" x="40.64" y="149.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="43.18" y="152.3746" size="1.778" layer="95"/>
+<attribute name="VALUE" x="43.18" y="149.86" size="1.778" layer="96"/>
 </instance>
 <instance part="U1" gate="G$1" x="40.64" y="175.26" smashed="yes">
 <attribute name="NAME" x="43.18" y="167.64" size="1.778" layer="95"/>
 <attribute name="VALUE" x="35.56" y="179.07" size="1.778" layer="96"/>
 </instance>
-<instance part="GND1" gate="1" x="40.64" y="142.24"/>
-<instance part="GND2" gate="1" x="25.4" y="142.24"/>
-<instance part="GND3" gate="1" x="15.24" y="142.24"/>
-<instance part="GND4" gate="1" x="60.96" y="142.24"/>
-<instance part="GND5" gate="1" x="71.12" y="142.24"/>
+<instance part="GND1" gate="1" x="40.64" y="139.7"/>
+<instance part="GND2" gate="1" x="25.4" y="139.7"/>
+<instance part="GND3" gate="1" x="15.24" y="139.7"/>
+<instance part="GND4" gate="1" x="60.96" y="139.7"/>
+<instance part="GND5" gate="1" x="71.12" y="139.7"/>
 <instance part="U3" gate="G$1" x="22.86" y="20.32"/>
 <instance part="GND6" gate="1" x="43.18" y="30.48"/>
 <instance part="GND7" gate="1" x="25.4" y="58.42"/>
@@ -9907,7 +9837,7 @@ LILYPAD- DIO-09910&lt;br&gt;</description>
 <attribute name="NAME" x="86.36" y="170.1546" size="1.778" layer="95"/>
 <attribute name="VALUE" x="86.36" y="167.64" size="1.778" layer="96"/>
 </instance>
-<instance part="GND19" gate="1" x="83.82" y="142.24"/>
+<instance part="GND19" gate="1" x="83.82" y="139.7"/>
 <instance part="D1" gate="G$1" x="83.82" y="157.48" smashed="yes">
 <attribute name="NAME" x="86.36" y="157.48" size="1.778" layer="95"/>
 <attribute name="VALUE" x="86.106" y="154.305" size="1.778" layer="96"/>
@@ -9956,12 +9886,12 @@ LILYPAD- DIO-09910&lt;br&gt;</description>
 <segment>
 <pinref part="U1" gate="G$1" pin="ADJ"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="40.64" y1="167.64" x2="40.64" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="167.64" x2="40.64" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="40.64" y1="160.02" x2="40.64" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="162.56" x2="50.8" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="160.02" x2="40.64" y2="160.02" width="0.1524" layer="91"/>
-<junction x="40.64" y="160.02"/>
+<wire x1="40.64" y1="157.48" x2="40.64" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="160.02" x2="50.8" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="157.48" x2="40.64" y2="157.48" width="0.1524" layer="91"/>
+<junction x="40.64" y="157.48"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -9998,6 +9928,7 @@ LILYPAD- DIO-09910&lt;br&gt;</description>
 <wire x1="48.26" y1="175.26" x2="50.8" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="175.26" x2="50.8" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="+"/>
+<wire x1="50.8" y1="172.72" x2="50.8" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="175.26" x2="60.96" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="175.26" x2="60.96" y2="172.72" width="0.1524" layer="91"/>
 <junction x="50.8" y="175.26"/>
@@ -10012,6 +9943,9 @@ LILYPAD- DIO-09910&lt;br&gt;</description>
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="71.12" y1="172.72" x2="71.12" y2="175.26" width="0.1524" layer="91"/>
 <junction x="71.12" y="175.26"/>
+<pinref part="U1" gate="G$1" pin="OUT@1"/>
+<wire x1="48.26" y1="172.72" x2="50.8" y2="172.72" width="0.1524" layer="91"/>
+<junction x="50.8" y="172.72"/>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
@@ -10028,27 +9962,27 @@ LILYPAD- DIO-09910&lt;br&gt;</description>
 <segment>
 <pinref part="C1" gate="G$1" pin="-"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="15.24" y1="165.1" x2="15.24" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="165.1" x2="15.24" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="2"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="25.4" y1="165.1" x2="25.4" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="165.1" x2="25.4" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="40.64" y1="147.32" x2="40.64" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="144.78" x2="40.64" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="-"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="60.96" y1="165.1" x2="60.96" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="165.1" x2="60.96" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="2"/>
 <pinref part="GND5" gate="1" pin="GND"/>
-<wire x1="71.12" y1="165.1" x2="71.12" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="165.1" x2="71.12" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="GND"/>
@@ -10252,7 +10186,7 @@ LILYPAD- DIO-09910&lt;br&gt;</description>
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
 <pinref part="GND19" gate="1" pin="GND"/>
-<wire x1="83.82" y1="152.4" x2="83.82" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="152.4" x2="83.82" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="WIFI_CS" class="0">
