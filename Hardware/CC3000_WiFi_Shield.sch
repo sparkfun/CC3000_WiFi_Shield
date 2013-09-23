@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -9728,8 +9728,8 @@ LILYPAD- DIO-09910&lt;br&gt;</description>
 <sheets>
 <sheet>
 <plain>
-<text x="172.72" y="7.62" size="5.08" layer="94">Shawn Hymel</text>
-<text x="237.236" y="6.604" size="3.81" layer="94">v01</text>
+<text x="172.72" y="12.7" size="2.54" layer="94" align="center-left">Shawn Hymel</text>
+<text x="237.236" y="6.604" size="2.54" layer="94">v01</text>
 <wire x1="0" y1="129.54" x2="101.6" y2="129.54" width="0.1524" layer="97" style="longdash"/>
 <wire x1="101.6" y1="129.54" x2="101.6" y2="109.22" width="0.1524" layer="97" style="longdash"/>
 <wire x1="101.6" y1="109.22" x2="101.6" y2="55.88" width="0.1524" layer="97" style="longdash"/>
