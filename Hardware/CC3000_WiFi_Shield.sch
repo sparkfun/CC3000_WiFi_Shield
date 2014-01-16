@@ -10943,7 +10943,7 @@ LILYPAD- DIO-09910&lt;br&gt;</description>
 <sheet>
 <plain>
 <text x="172.72" y="12.7" size="2.54" layer="94" align="center-left">Shawn Hymel</text>
-<text x="237.236" y="6.604" size="2.54" layer="94">v02</text>
+<text x="237.236" y="6.604" size="2.54" layer="94">v10</text>
 <wire x1="0" y1="129.54" x2="53.34" y2="129.54" width="0.1524" layer="97" style="longdash"/>
 <wire x1="53.34" y1="129.54" x2="106.68" y2="129.54" width="0.1524" layer="97" style="longdash"/>
 <wire x1="106.68" y1="129.54" x2="106.68" y2="109.22" width="0.1524" layer="97" style="longdash"/>
