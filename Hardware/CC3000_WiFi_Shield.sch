@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -10864,7 +10864,7 @@ LILYPAD- DIO-09910&lt;br&gt;</description>
 <part name="C4" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="1uF"/>
 <part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="240"/>
 <part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="390"/>
-<part name="U1" library="SparkFun-PowerIC" deviceset="V_REG_LM1117" device="SOT223"/>
+<part name="U1" library="SparkFun-PowerIC" deviceset="V_REG_LM1117" device="SOT223" value="LM1117"/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -10895,9 +10895,7 @@ LILYPAD- DIO-09910&lt;br&gt;</description>
 <attribute name="COEFF" value="C0G"/>
 <attribute name="TOL" value="5%"/>
 </part>
-<part name="L1" library="SparkFun-Passives" deviceset="INDUCTOR" device="0603">
-<attribute name="PLACE" value="DNP"/>
-</part>
+<part name="L1" library="SparkFun-Passives" deviceset="INDUCTOR" device="0603" value="DNP"/>
 <part name="L2" library="SparkFun-Passives" deviceset="INDUCTOR" device="0603" value="2.2nH"/>
 <part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND16" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -10987,7 +10985,7 @@ LILYPAD- DIO-09910&lt;br&gt;</description>
 </instance>
 <instance part="U1" gate="G$1" x="40.64" y="175.26" smashed="yes">
 <attribute name="NAME" x="35.56" y="178.816" size="1.778" layer="95"/>
-<attribute name="VALUE" x="35.56" y="179.07" size="1.778" layer="96"/>
+<attribute name="VALUE" x="40.64" y="179.07" size="1.778" layer="96"/>
 </instance>
 <instance part="GND1" gate="1" x="40.64" y="139.7"/>
 <instance part="GND2" gate="1" x="25.4" y="139.7"/>
@@ -11027,8 +11025,9 @@ LILYPAD- DIO-09910&lt;br&gt;</description>
 <attribute name="NAME" x="162.56" y="180.467" size="1.778" layer="95"/>
 <attribute name="VALUE" x="167.64" y="175.387" size="1.778" layer="96"/>
 </instance>
-<instance part="L1" gate="G$1" x="121.92" y="157.48">
-<attribute name="PLACE" x="124.46" y="160.02" size="1.778" layer="96"/>
+<instance part="L1" gate="G$1" x="121.92" y="157.48" smashed="yes">
+<attribute name="NAME" x="124.46" y="162.56" size="1.778" layer="95"/>
+<attribute name="VALUE" x="124.46" y="160.02" size="1.778" layer="96"/>
 </instance>
 <instance part="L2" gate="G$1" x="144.78" y="157.48" smashed="yes">
 <attribute name="NAME" x="147.32" y="162.56" size="1.778" layer="95"/>
